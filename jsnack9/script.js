@@ -19,3 +19,5 @@ for (let i = 1; i <= 10; i++) {
 
 let average = sum / 10;
 console.log("La media è:" + average);
+
+document.getElementById("result").innerHTML = `La somma dei primi 10 numeri è: ${sum} <br> La media dei primi 10 numeri è ${average}`
