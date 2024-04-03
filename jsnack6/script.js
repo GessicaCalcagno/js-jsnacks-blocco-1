@@ -12,7 +12,7 @@
 
 
 const numb = parseInt(prompt("Inserisci un numero:"));
-//Chiedo per 3 volte all'utente un numero con un ciclo for
+
 
 if (isNaN(numb)){
     alert("Inserisci un numero valido!!");

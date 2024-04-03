@@ -11,9 +11,10 @@
 //**************************************************** */
 
 // Dichiaro la variabile
-let potenza = 1;
+let pow = 1;
 
 // Calcolo e stampo tutte le potenze di 2 fino a 1000 in console
-for (let potenza = 1; potenza <= 1000; potenza *= 2) {
-    console.log(potenza);
+//pow = pow * 2 --> 4 = 4 * 2 --> 8 = 8 * 2 --> 16 = 16 *2 etc...
+for (let pow = 1; pow <= 1000; pow *= 2) {
+    console.log(pow);
 }
